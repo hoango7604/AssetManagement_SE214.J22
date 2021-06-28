@@ -366,14 +366,6 @@ cli@~1.0.0:
     exit "0.1.2"
     glob "^7.1.1"
 
-clipboard@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.1.tgz#a12481e1c13d8a50f5f036b0560fe5d16d74e46a"
-  dependencies:
-    good-listener "^1.2.2"
-    select "^1.1.2"
-    tiny-emitter "^2.0.0"
-
 clone-stats@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/clone-stats/-/clone-stats-0.0.1.tgz#b88f94a82cf38b8791d58046ea4029ad88ca99d1"
@@ -779,10 +771,6 @@ defined@^1.0.0:
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
-
-delegate@^3.1.2:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
 
 deprecated@^0.0.1:
   version "0.0.1"
@@ -1195,12 +1183,6 @@ glogg@^1.0.0:
 gmaps@^0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/gmaps/-/gmaps-0.4.24.tgz#07f22f0cfc3e4e32498950ffafd7ca635ffc100c"
-
-good-listener@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
-  dependencies:
-    delegate "^3.1.2"
 
 graceful-fs@^3.0.0:
   version "3.0.11"
@@ -2326,11 +2308,9 @@ pretty-hrtime@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
 
-prismjs@^1.8.1:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.14.0.tgz#bbccfdb8be5d850d26453933cb50122ca0362ae0"
-  optionalDependencies:
-    clipboard "^2.0.0"
+prismjs@^1.24.0:
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.24.0.tgz#0409c30068a6c52c89ef7f1089b3ca4de56be2ac"
 
 process-nextick-args@~2.0.0:
   version "2.0.0"
@@ -2550,10 +2530,6 @@ select2@^4.0.3:
   dependencies:
     almond "~0.3.1"
     jquery-mousewheel "~3.1.13"
-
-select@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
 
 "semver@2 || 3 || 4 || 5", semver@^5.1.0:
   version "5.5.0"
@@ -2837,10 +2813,6 @@ timeago@^1.6.1:
   resolved "https://registry.yarnpkg.com/timeago/-/timeago-1.6.3.tgz#162a1adae99356297df59339837d09f1b0f36465"
   dependencies:
     jquery ">=1.2.3"
-
-tiny-emitter@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
 
 to-object-path@^0.3.0:
   version "0.3.0"
